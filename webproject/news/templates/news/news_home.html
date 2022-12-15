@@ -1,0 +1,23 @@
+{% extends 'main/main_layout.html' %}
+
+
+{% block title %}Басты Жаңалықтар{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Жаңалықтар</h1>
+        {% if news %}
+            {% for i in news %}
+                <div class="alert alert-warning">
+                    <h3>{{i.title}}</h3>
+                    <a href="{% url 'news-detail' i.id %}" class="btn btn-success">Толығырақ оқу</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Әзірге ешқандай жаңалық жоқ</p>
+        {% endif %}
+
+        {# Comment #}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'main/main_layout.html' %}
+{%load static%}
+
+
+{% block title %}{{titles}}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <div class="main_kyzolrda">
+        <img id="kyzylorda" src="{% static 'main/img/kyzylordamain_1.jpg' %}" alt="logo">
+        <img id="second" src="{% static 'main/img/second_image.jpg' %}" alt="logo">
+        <img id="third" src="{% static 'main/img/third.jpg' %}" alt="logo">
+        <img id="fourth" src="{% static 'main/img/fourth.jpg' %}" alt="logo">
+        </div>
+    </div>
+
+{% endblock %}

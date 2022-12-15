@@ -1,0 +1,15 @@
+{% extends 'main/main_layout.html' %}
+
+
+{% block title %}Жаңалықты жою{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Жаңалықты жою</h1>
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-danger" type="submit">Жою</button>
+        </form>
+    </div>
+
+{% endblock %}

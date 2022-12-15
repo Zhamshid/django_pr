@@ -1,0 +1,184 @@
+body {
+  background:#202020;
+}
+
+aside {
+	float: left;
+	background: #202020;
+	width: 23%;
+	padding: 2.5%;
+	height: 100vh;
+	color: #000000;
+	border-right: 5px solid #4d4d4d;
+}
+
+aside .logo_main{
+    background-color:#202020;
+	width: 280px;
+	margin-top:-25px;
+	height: 260 px;
+	margin-left:-10px;
+}
+
+aside h3 {
+	margin-top: 100px;
+	font-size: 40px;
+	font-family:sans-serif;
+	font-style:italic;
+	color:#fff;
+}
+
+aside ul {list-style:none;}
+
+aside ul li {
+	color: #fff;
+	display: block;
+	margin-top: 20px;
+	transition:transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color:#FF0000;
+    text-decoration:none;
+    transform: scale(1.05)
+}
+
+main .features {
+    float:left;
+    color : #000;
+    margin-top: 120px;
+    text-align:center;
+    width:75%;
+
+}
+
+main .features h1 {font-size:50px;margin-top:-50px;color:#fff;}
+main .features p {max-width: 400px; margin:30px auto;color:#fff;}
+
+.alert-warning {
+    float:left;
+    clear:both;
+    margin:20px 34%;
+    width: 400px;
+    text-align:left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#bekzat {
+    height:250px;
+    width:300px;
+    margin-right:700px;
+}
+
+#names {
+    padding-top:80px;
+    margin-left:150px;
+}
+
+main .persons {
+    text-align:center;
+}
+
+
+main .persons p {
+    padding-left:380px;
+    padding-right:50px;
+}
+
+main .persons h5 {
+    font-size:18px;
+    margin-left:770px;
+    margin-right:50px;
+    margin-top:-225px;
+
+}
+
+#kairat {
+    height:250px;
+    width:300px;
+    margin-right:700px;
+}
+
+main .persons h2 {
+    margin-top:15px;
+}
+
+main .contacts {
+    text-align:center;
+    padding-top:60px;
+    color:white;
+}
+
+.contacts ul li {
+	color: #fff;
+	display: block;
+	margin-top: 20px;
+	transition:transform .6s ease;
+}
+
+
+.map_tur {
+    margin-top:50px;
+}
+
+.contacts ul {list-style:none;}
+
+h4 {
+    text-align:center;
+    margin-top:60px;
+    color:white;
+}
+
+#kyzylorda {
+    margin-top:50px;
+    width:500px;
+    height:240px;
+    border-radius:5%;
+    margin-left:50px;
+}
+
+#second {
+    margin-top:50px;
+    width:500px;
+    height:240px;
+    border-radius:5%;
+    margin-left:50px;
+}
+
+#third {
+    margin-top:50px;
+    width:500px;
+    height:240px;
+    border-radius:5%;
+    margin-left:50px;
+}
+#fourth {
+    margin-top:50px;
+    width:500px;
+    height:240px;
+    border-radius:5%;
+    margin-left:50px;
+
+}
+
+main .features h6 {
+    font-size:25px;
+    margin-top:-640px;
+    margin-left:180px;
+    margin-right:180px;
+    color:#F5F0C2;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
